@@ -1,64 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/css/styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>Nosotros</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>GCZ</title>
 </head>
+
 <body>
-  <header>
-<!-- Navbar start -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <!-- Logo -->
-    <a class="navbar-brand" href="#">
-      <img class="img_logo" src="./src/img/Logo_GCZ.png" alt="Logo"/>
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <!-- Menu de navegacion -->
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Acerca de mi</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Experiencia
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="experience.html">Carrera</a></li>
-            <li><a class="dropdown-item" href="services.html">Servicios</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="cvAndwork.html">Hoja de vida</a></li>
-          </ul>
-        </li>
-      </ul>
-      
+  <!-- Navbar start -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+        <img class="img_logo" src="./src/img/Logo_GCZ.png" alt="Logo" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Menu de navegacion -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active enlace" aria-current="page" href="index.html">Acerca de mi</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle enlace" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Experiencia
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item enlace" href="experience.html">Carrera</a></li>
+              <li><a class="dropdown-item enlace" href="services.html">Servicios</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item enlace" href="cvAndwork.html">Hoja de vida</a></li>
+            </ul>
+          </li>
+        </ul>
+
+      </div>
     </div>
-  </div>
-</nav>
-<!-- Navbar end -->
-</header>
+  </nav>
+  <!-- Navbar end -->
+  <main>
+    <section>
+      <h2>Servicios</h2>
+      <h5>¿Cuál es nuestra magia?</h5>
+      <p class="magic">La magia de todo proceso, nace del esfuerzo y dedicación que le ponemos, nuestros servicios tiene esa esencia única de nuestros clientes.</p>
+    </section>
+    <section class="services px-5">
+      <div class="serv1">
+        <p>Retail - Comercio al por menor</p>
+        <img src="./src/img/processdev.png" alt="desarrollo_procesos" id="processdev">
+        <ul>Desarrollo de procesos</ul>
+        <hr class="dropdown-divider">
+      </div>
+      <div class="serv2 px-5">
+        <p>Sector inmobiliario</p>
+        <img src="./src/img/KPI.png" alt="indicadores" id="KPI">
+        <ul>Construcción de indicadores</ul>
+        <hr class="dropdown-divider">
+      </div>
+      <div class="serv3 px-5">
+        <p>Servicios</p>
+        <img src="./src/img/customerstf.png" alt="satisfaccion_cliente" id="customerstf">
+        <ul>Satisfacción cliente interno y externo</ul>
+        <hr class="dropdown-divider">
+      </div>
+      <div class="serv4 px-5">
+        <p>Salud</p>
+        <img src="./src/img/projectpath.png" alt="implementacion_proyectos" id="projectpath">
+        <ul>Implementación de proyectos</ul>
+        <hr class="dropdown-divider">
+      </div>
+    </section>
+    <section class="serv5 px-5">
+        <p>Considerando la evolución de la tecnología y la necesidad de tomar decisiones basados en datos, hemos consolidado cómo la mejor conclusión de todas las intervenciones realizadas, el desarrollo de inteligencia de negocios a través de los datos, así una de las mejores opciones es a través de la integración de o consulta de datos. El primer paso para ellos es la consulta de inforamción a través dde API's</p>
+        <p>A continuación se realiza la consulta de una API con información recopilada sobre los test de COVID en los diferentes estados de EEUU entre el 2020 y marzo de 2021</p>
+        <p>La consulta tiene 2 criterios de búsqueda:
+          <ul>El estado, el cual deberá ponerse con sus iniciales</ul>
+          <ul>La fecha en formato AAAAMMDD, para que la consulta sea efectiva</ul>
+        </p>
+    </section>
       <main>
-        <section>
-            <h1>Servicios</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptate natus corrupti rem inventore mollitia similique commodi, fugit, eveniet in tenetur consequuntur, aliquid maiores ut recusandae ducimus iste sed eos?
-            Maxime natus magnam ducimus eligendi! Corporis ipsa molestias eaque fuga iure expedita illo error accusamus a nesciunt saepe voluptatibus magni obcaecati quia voluptatum quasi qui, nihil sit reiciendis pariatur cupiditate!
-            Obcaecati perferendis, sit delectus, sint odio repudiandae commodi esse quod fugiat aperiam neque culpa quaerat illo ipsa praesentium saepe vero ducimus incidunt nulla quis aspernatur quidem sequi! Eaque, cum quas.
-            Hic fugit voluptatibus, iure sequi quisquam illo aliquam aperiam? Nihil ut distinctio adipisci magnam magni error quibusdam deleniti voluptates earum fuga exercitationem omnis ipsum, pariatur officiis. Iusto quibusdam rem praesentium!
-            Iure rem consequatur vitae minus maiores sint fugit delectus? Alias nemo expedita delectus error optio praesentium dolor adipisci repellendus minus maxime dolore magnam laudantium illum, reiciendis facilis exercitationem, obcaecati totam?
-            Beatae amet recusandae quo numquam molestiae praesentium quia suscipit? Nihil iste mollitia expedita delectus, aliquid velit atque quod repellendus, dolores doloremque quas corrupti magni ullam, vel pariatur? Quidem, illum fugit.
-            Natus, blanditiis impedit est, fugit quam consequatur officiis eligendi, obcaecati quia dolorum labore officia porro vel error voluptatum dignissimos totam nesciunt nulla illo nemo minima nostrum? Expedita aperiam architecto atque.
-            Quos quis vitae assumenda quidem animi soluta, adipisci facere iste harum voluptates voluptas quam, blanditiis maxime hic eveniet, commodi numquam cumque dolor alias suscipit dolorem. Molestias labore blanditiis tenetur nam.
-            </p>
-        </section>
-        <section><img class="img_logo" src="./src/img/Logo_GCZ.png" alt="Logo"></section>
+        <div class="api px-5">
+          <input type="text" id="state" placeholder="Digita el estado a consultar">
+          <input type="text" id="date" placeholder="Selecciona fecha">
+          <button onclick="fetchCovid()">Obtener información</button>
+        </div>
+        <div id="covidInfo">
+        </div>
       </main>
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  </main>
+  <footer>
+    <p class="footer">MMXXIII. Gloria Cadavid. ¡Transformando caminos para cumplir los sueños!</p>
+  </footer>
+  <script src="./src/js/appCovid.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
