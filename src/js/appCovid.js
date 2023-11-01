@@ -1,7 +1,7 @@
 function fetchCovid(){
     const queriedDate = document.querySelector('#date').value;
     const queriedState = document.querySelector('#state').value;
-    console.log(queriedState);
+    /* console.log(queriedState); */
    if (queriedState ==='' || queriedDate ==='') {
     alert('Por favor ingresa estado y fecha');
     return;
@@ -14,7 +14,7 @@ function fetchCovid(){
 fetch(url)
   .then(response => response.json())
   .then((data) =>{
-    console.log(data)
+    /* console.log(data) */
         const positive = data.positive;    
         const totalTestResults = data.totalTestResults;
         const death = data.death;

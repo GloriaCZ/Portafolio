@@ -12,7 +12,7 @@
 
 <body>
   <!-- Navbar start -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light mx-5">
     <div class="container-fluid">
       <!-- Logo -->
       <a class="navbar-brand" href="#">
@@ -52,17 +52,17 @@
     <section>
       <h2>Servicios</h2>
       <h5>¿Cuál es nuestra magia?</h5>
-      <p class="magic">La magia de todo proceso, nace del esfuerzo y dedicación que le ponemos, nuestros servicios tiene esa esencia única de nuestros clientes.</p>
+      <p class="magic px-5">La magia de todo proceso, nace del esfuerzo y dedicación que le ponemos, nuestros servicios tiene esa esencia única de nuestros clientes.</p>
     </section>
-    <section class="services px-5">
+    <section class="services px-5 py-5">
       <div class="serv1">
         <p>Retail - Comercio al por menor</p>
         <img src="./src/img/processdev.png" alt="desarrollo_procesos" id="processdev">
-        <ul>Desarrollo de procesos</ul>
+        <p>Desarrollo de procesos</p>
         <hr class="dropdown-divider">
       </div>
       <div class="serv2 px-5">
-        <p>Sector inmobiliario</p>
+        <p class="serv">Sector inmobiliario</p>
         <img src="./src/img/KPI.png" alt="indicadores" id="KPI">
         <ul>Construcción de indicadores</ul>
         <hr class="dropdown-divider">
@@ -79,24 +79,23 @@
         <ul>Implementación de proyectos</ul>
         <hr class="dropdown-divider">
       </div>
-    </section>
+    </section><br>
     <section class="serv5 px-5">
-        <p>Considerando la evolución de la tecnología y la necesidad de tomar decisiones basados en datos, hemos consolidado cómo la mejor conclusión de todas las intervenciones realizadas, el desarrollo de inteligencia de negocios a través de los datos, así una de las mejores opciones es a través de la integración de o consulta de datos. El primer paso para ellos es la consulta de inforamción a través dde API's</p>
+        <h3>Consultando API's</h3>
+        <p>Considerando la evolución de la tecnología y la necesidad de tomar decisiones basadas en datos, hemos comcluído de todas las intervenciones realizadas, el desarrollo de inteligencia de negocios a través de los datos, así una de las mejores opciones es a través de la integración o consulta de datos. El primer paso para ellos es la consulta de inforamción a través de API's</p>
         <p>A continuación se realiza la consulta de una API con información recopilada sobre los test de COVID en los diferentes estados de EEUU entre el 2020 y marzo de 2021</p>
         <p>La consulta tiene 2 criterios de búsqueda:
-          <ul>El estado, el cual deberá ponerse con sus iniciales</ul>
-          <ul>La fecha en formato AAAAMMDD, para que la consulta sea efectiva</ul>
+          <ul>El estado, el cual deberá ponerse con sus iniciales. Ej: ca para California.</ul>
+          <ul>La fecha en formato AAAAMMDD, para que la consulta sea efectiva y se pueda evidenciar los datos.</ul>
         </p>
     </section>
-      <main>
-        <div class="api px-5">
+        <div class="api px-5 py-3">
           <input type="text" id="state" placeholder="Digita el estado a consultar">
           <input type="text" id="date" placeholder="Selecciona fecha">
-          <button onclick="fetchCovid()">Obtener información</button>
+          <button id="btn" onclick="fetchCovid()">Obtener información</button>
         </div>
         <div id="covidInfo">
         </div>
-      </main>
   </main>
   <footer>
     <p class="footer">MMXXIII. Gloria Cadavid. ¡Transformando caminos para cumplir los sueños!</p>
